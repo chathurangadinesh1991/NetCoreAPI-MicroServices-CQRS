@@ -1,0 +1,23 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7269"
+  },
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/alowances",
+      "UpstreamHttpMethod": [ "Get" ],
+      "DownstreamPathTemplate": "/api/alowances",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44333
+        }
+      ]
+      // For enabled JWT token based authentication
+      // "AuthenticationOptions": {
+      //   "AuthenticationProviderKey": "Bearer"
+      // }
+    }
+  ]
+}
