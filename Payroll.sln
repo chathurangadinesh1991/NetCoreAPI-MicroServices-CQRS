@@ -3,18 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.API", "Payroll.API\Payroll.API.csproj", "{CB832E8B-BD9A-48CE-829C-E88711537E40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payroll.API", "Payroll.API\Payroll.API.csproj", "{CB832E8B-BD9A-48CE-829C-E88711537E40}"
 	ProjectSection(ProjectDependencies) = postProject
 		{DD1CE6F5-20D7-4C73-BC28-816FD79FE6DE} = {DD1CE6F5-20D7-4C73-BC28-816FD79FE6DE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.APIGateway", "Payroll.APIGateway\Payroll.APIGateway.csproj", "{5C2D7805-3A48-4D89-8417-C822C1AC0869}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payroll.APIGateway", "Payroll.APIGateway\Payroll.APIGateway.csproj", "{5C2D7805-3A48-4D89-8417-C822C1AC0869}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.Application", "Payroll.Application\Payroll.Application.csproj", "{83FD0209-BCBC-4444-8609-5C173A681D8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payroll.Application", "Payroll.Application\Payroll.Application.csproj", "{83FD0209-BCBC-4444-8609-5C173A681D8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.Domain", "Payroll.Domain\Payroll.Domain.csproj", "{DD1CE6F5-20D7-4C73-BC28-816FD79FE6DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payroll.Domain", "Payroll.Domain\Payroll.Domain.csproj", "{DD1CE6F5-20D7-4C73-BC28-816FD79FE6DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll.Infrastructure", "Payroll.Infrastructure\Payroll.Infrastructure.csproj", "{A0EE738B-6933-4B8E-9040-A64DF9DF9FA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Payroll.Infrastructure", "Payroll.Infrastructure\Payroll.Infrastructure.csproj", "{A0EE738B-6933-4B8E-9040-A64DF9DF9FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayrollUnitTest", "PayrollUnitTest\PayrollUnitTest.csproj", "{DC610B2A-DF6B-480B-87BE-E4F14E440DDC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -42,6 +44,10 @@ Global
 		{A0EE738B-6933-4B8E-9040-A64DF9DF9FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EE738B-6933-4B8E-9040-A64DF9DF9FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EE738B-6933-4B8E-9040-A64DF9DF9FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC610B2A-DF6B-480B-87BE-E4F14E440DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC610B2A-DF6B-480B-87BE-E4F14E440DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC610B2A-DF6B-480B-87BE-E4F14E440DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC610B2A-DF6B-480B-87BE-E4F14E440DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
