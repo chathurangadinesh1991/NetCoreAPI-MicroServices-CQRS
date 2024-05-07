@@ -15,3 +15,6 @@ PayrollUnitTest : This is a XUnit Test project
 
 Database : MSSQL<br />
 ORM : Microsoft Entity Framework<br />
+
+API Gateway : Ocelot Open source
+https://ocelot.readthedocs.io/en/latest/
